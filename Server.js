@@ -18,12 +18,11 @@ app.post('/verify-nft', async (req, res) => {
 
   try {
     // 2. Query the Smart Contract directly from the Server
-    const [rose, lily] = await Promise.all([
-        nftContract.balanceOf(walletAddress, 0),
-        nftContract.balanceOf(walletAddress, 1),
+    const [rose] = await Promise.all([
+        nftContract.balanceOf(walletAddress, 0)
     ]);
 
-    if (rose > 0n || lily > 0n) {
+    if (rose > 0n) {
       // 3. Logic for "User owns the NFT"
       res.json({ authorized: true, message: "Access Granted" });
     } else {

@@ -1,5 +1,0 @@
-LILY = https://gateway.pinata.cloud/ipfs/bafybeib44wweldczfufhw3s2zidxrx2xhzin4q45hufiw5anzi674ti2xq/1.json
-ROSE = https://gateway.pinata.cloud/ipfs/bafybeib44wweldczfufhw3s2zidxrx2xhzin4q45hufiw5anzi674ti2xq/0.json
-
-ROSE_PNG = https://gateway.pinata.cloud/ipfs/bafybeidlxhkphcbv4figvrirty62m6edzz4tvlcyqifiai22cmsi53j444/0.png
-LILY_PNG = https://gateway.pinata.cloud/ipfs/bafybeidlxhkphcbv4figvrirty62m6edzz4tvlcyqifiai22cmsi53j444/1.png
