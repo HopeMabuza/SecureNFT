@@ -110,7 +110,7 @@ SecureNFT/
 │       ├── index.css            — Global styles, CSS variables, neon buttons, cards
 │       └── main.jsx             — React entry point
 │
-├── Server.js                    — Express server: queries blockchain, returns authorized/denied
+├── scripts/Server.js            — Express server: queries blockchain, returns authorized/denied
 ├── hardhat.config.js            — Hardhat config: Sepolia network, compiler settings
 ├── .env                         — RPC URL, private key, Etherscan API key (never commit)
 ├── .openzeppelin/
@@ -173,7 +173,7 @@ VITE_RPC_URL=https://sepolia.infura.io/v3/YOUR_KEY
 
 **5. Start the server (Terminal 1):**
 ```bash
-node Server.js
+node scripts/Server.js
 # → Server running on http://localhost:3000
 ```
 

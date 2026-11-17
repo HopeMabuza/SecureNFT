@@ -1,14 +1,15 @@
 {
-  "name": "NFT_Contract",
+  "name": "securenft",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "ERC1155 NFT-gated DApp: Solidity + Hardhat contract, Express ownership-verification server, and React/Vite frontend.",
   "scripts": {
+    "server": "node scripts/Server.js",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["nft", "erc1155", "hardhat", "ethers", "web3", "sepolia"],
+  "author": "Hope Mabuza",
+  "license": "MIT",
   "dependencies": {
     "@account-abstraction/contracts": "^0.6.0",
     "@openzeppelin/contracts": "^4.2.0",
