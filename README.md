@@ -112,13 +112,7 @@ SecureNFT/
 │
 ├── scripts/Server.js            — Express server: queries blockchain, returns authorized/denied
 ├── hardhat.config.js            — Hardhat config: Sepolia network, compiler settings
-├── .env                         — RPC URL, private key, Etherscan API key (never commit)
-├── .openzeppelin/
-│   └── sepolia.json             — OpenZeppelin upgrade manifest for proxy tracking
-└── Journal/
-    ├── FRONTEND_EXPLAINED.md    — Step-by-step frontend guide with code and explanations
-    ├── SERVER_EXPLAINED.md      — Step-by-step server guide with code and explanations
-    └── USEFUL_INFO.md           — Notes, references, and things learned along the way
+└── .env                         — RPC URL, private key, Etherscan API key (never commit)
 ```
 
 ---
