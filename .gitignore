@@ -1,3 +1,6 @@
+# Personal notes (not part of the published repo)
+Journal/
+
 # Secrets
 .env
 .env.local
